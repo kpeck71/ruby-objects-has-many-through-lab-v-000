@@ -6,7 +6,7 @@ class Doctor
     @appointments = []
   end
 
-  def add_appointment(song)
+  def add_appointment(appointment)
     @patients << patient
     patient.doctor = self
   end
