@@ -3,7 +3,7 @@ class Appointment
 
   def initialize(name)
     @name = name
-    @songs = []
+    @appointments = []
   end
 
   def appointment
