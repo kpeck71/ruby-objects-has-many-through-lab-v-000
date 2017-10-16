@@ -6,9 +6,9 @@ class Appointment
     @appointments = []
   end
 
-  def appointment
-    @appointments
-  end
+  # def appointment
+  #   @appointments
+  # end
 
   def add_appointment(appointment)
     @appointments << appointment
