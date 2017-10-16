@@ -9,7 +9,7 @@ class Appointment
   end
 
   def doctor
-    appointment.doctor = self
+    Appointment.doctor = self
   end
 
   def patient
