@@ -1,5 +1,5 @@
 class Appointment
-  attr_accessor :name
+  attr_accessor :time
 
   def initialize(name)
     @name = name
