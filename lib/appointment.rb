@@ -25,4 +25,4 @@ class Appointment
 #   def doctors
 #     @appointments.collect {|patient| patient.doctor}
 #   end
-# end
+end
