@@ -13,7 +13,7 @@ class Doctor
   end
 
   def patients
-    @patients
+    @appointments.collect {|app| app.patient}
   end
 
   # def appointments
