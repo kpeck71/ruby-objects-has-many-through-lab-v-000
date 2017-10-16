@@ -16,7 +16,7 @@ class Doctor
   end
 
   def appointments
-    self.patient.collect {|patient| patient.genre}
+    self.patients.collect {|patient| patient.genre}
   end
 
 end
