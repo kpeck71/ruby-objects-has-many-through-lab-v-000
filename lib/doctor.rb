@@ -6,9 +6,10 @@ class Doctor
     @appointments = []
   end
 
-  def add_appointment(date,doctor)
-    @appointments << Appointment.new(date,doctor)
+  def add_appointment(appointment)
+    @appointments << appointment
   end
+
 
   def patients
     @appointments.collect {|app| app.patient}
