@@ -7,6 +7,7 @@ class Patient
 
   def add_appointment(appointment)
     @appointments = []
+    @appointments << appointment
 
 
 end
