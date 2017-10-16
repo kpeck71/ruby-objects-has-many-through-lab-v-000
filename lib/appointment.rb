@@ -5,7 +5,7 @@ class Appointment
   def initialize(date,doctor)
     @date = date
     @doctor = doctor
-    self.add_appointment(date,doctor)
+    Doctor.add_appointment(date,doctor)
   end
 
 end
