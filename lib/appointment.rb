@@ -1,8 +1,8 @@
 class Appointment
-  attr_accessor :time
+  attr_accessor :date
 
-  def initialize(time)
-    @time = time
+  def initialize(date)
+    @date = date
     @appointments = []
   end
 
