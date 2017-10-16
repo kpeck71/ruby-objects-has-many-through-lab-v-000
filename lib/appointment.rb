@@ -7,14 +7,14 @@ class Appointment
   end
 
   def appointment
-    @songs
+    @appointments
   end
 
   def add_song(song)
-    @songs << song
+    @appointments << song
   end
 
   def artists
-    @songs.collect {|song| song.artist}
+    @appointments.collect {|song| song.artist}
   end
 end
