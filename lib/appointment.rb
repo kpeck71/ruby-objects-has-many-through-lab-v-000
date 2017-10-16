@@ -7,6 +7,7 @@ class Appointment
   end
 
   def add_doctor
+    
 
   # def appointment
   #   @appointments
