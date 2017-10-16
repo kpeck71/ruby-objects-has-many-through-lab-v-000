@@ -15,6 +15,6 @@ class Appointment
   end
 
   def artists
-    @appointments.collect {|patient| song.doctor}
+    @appointments.collect {|patient| patient.doctor}
   end
 end
