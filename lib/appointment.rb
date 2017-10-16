@@ -6,7 +6,7 @@ class Appointment
     @appointments = []
   end
 
-  def
+  def add_doctor
 
   # def appointment
   #   @appointments
