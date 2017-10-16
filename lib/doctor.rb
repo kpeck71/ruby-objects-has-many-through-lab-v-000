@@ -1,5 +1,5 @@
 class Doctor
-  attr_accessor :name, :song, :genre
+  attr_accessor :name, :patient, :genre
 
   def initialize(name)
     @name = name
