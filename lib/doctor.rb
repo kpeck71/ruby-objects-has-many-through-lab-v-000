@@ -11,7 +11,7 @@ class Doctor
     patient.doctor = self
   end
 
-  def songs
+  def patient
     @songs
   end
 
