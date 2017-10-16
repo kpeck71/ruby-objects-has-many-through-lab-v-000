@@ -11,6 +11,8 @@ class Appointment
   end
 
   def patient
+    patient.appointment = self
+  end
 
   # def appointment
   #   @appointments
