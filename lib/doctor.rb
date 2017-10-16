@@ -6,7 +6,7 @@ class Doctor
     @appointments = []
   end
 
-  def add_appointment
+  def add_appointment(date,doctor)
     appointment = Appointment.new(date,self)
     @appointments << appointment
   end
