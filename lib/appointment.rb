@@ -6,7 +6,7 @@ class Appointment
     @songs = []
   end
 
-  def songs
+  def appointment
     @songs
   end
 
