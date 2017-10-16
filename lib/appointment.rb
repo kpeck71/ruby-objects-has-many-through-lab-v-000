@@ -1,7 +1,7 @@
 class Appointment
   attr_accessor :time
 
-  def initialize(name)
+  def initialize(time)
     @name = name
     @appointments = []
   end
