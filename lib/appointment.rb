@@ -10,8 +10,8 @@ class Appointment
     @appointments
   end
 
-  def add_song(song)
-    @appointments << song
+  def add_appointment(appointment)
+    @appointments << appointment
   end
 
   def doctors
