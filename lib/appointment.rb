@@ -10,6 +10,7 @@ class Appointment
     doctor.appointment = self
   end
 
+  def add_patient
 
   # def appointment
   #   @appointments
