@@ -11,8 +11,8 @@ class Doctor
     patient.doctor = self
   end
 
-  def patient
-    @songs
+  def patients
+    @patients
   end
 
   def genres
